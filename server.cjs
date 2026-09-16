@@ -530,7 +530,7 @@ function mergeTwoArticles(target, source) {
   };
 }
 
-// server/harvester.ts
+// src/lib/harvester.ts
 var TIMEOUT_MS = 6e3;
 async function fetchWithTimeout(url, options = {}, timeoutMs = TIMEOUT_MS) {
   const controller = new AbortController();
